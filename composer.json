@@ -1,0 +1,31 @@
+{
+	"name":        "kohana/errorview",
+	"type":        "kohana-module",
+	"description": "The Kohana better error view",
+	"homepage":    "https://bitbucket.org/adriangrabowski/kohana_errorview/",
+	"license":     "BSD-3-Clause",
+	"keywords":    ["kohana", "framework", "error", "view"],
+	"authors": [
+		{
+			"name":     "Adrian Grabowski",
+			"email":    "adriangrabowski4@gmail.com",
+			"homepage": "https://bitbucket.org/adriangrabowski/kohana_errorview/",
+			"role":     "developer"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0",
+		"kohana/core":         ">=3.3",
+		"php":                 ">=5.3.3"
+	},
+
+	"extra": {
+		"branch-alias": {
+			"dev-3.3/develop": "3.3.x-dev",
+			"dev-3.4/develop": "3.4.x-dev"
+		},
+        "installer-paths": {
+            "vendor/{$vendor}/{$name}": ["type:kohana-module"]
+        }
+	}
+}
