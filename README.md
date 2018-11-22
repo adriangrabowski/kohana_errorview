@@ -10,7 +10,7 @@ To add kohana/errorview to Your composer file please add:
 "repositories": [
 		{
 			"type": "vcs",
-			"url":  "https://bitbucket.org/adriangrabowski/kohana_errorview.git"
+			"url":  "https://github.com/adriangrabowski/kohana_errorview.git"
 		}
 ]
 ```
